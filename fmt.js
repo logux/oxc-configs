@@ -1,0 +1,19 @@
+export default {
+  arrowParens: 'avoid',
+  jsxSingleQuote: false,
+  quoteProps: 'consistent',
+  semi: false,
+  singleQuote: true,
+  sortImports: {
+    groups: [
+      'side_effect',
+      'side_effect_style',
+      'style',
+      ['builtin', 'external', 'unknown'],
+      ['internal', 'parent', 'sibling', 'index']
+    ],
+    newlinesBetween: true,
+    order: 'asc'
+  },
+  trailingComma: 'none'
+}

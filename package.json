@@ -1,0 +1,50 @@
+{
+  "name": "@logux/oxc-configs",
+  "version": "0.0.0",
+  "description": "An oxlint/oxfmt shareable config for Logux",
+  "keywords": [
+    "logux",
+    "oxfmt",
+    "oxlint"
+  ],
+  "license": "MIT",
+  "author": "Andrey Sitnik <andrey@sitnik.es>",
+  "repository": "logux/oxc-configs",
+  "type": "module",
+  "exports": {
+    "./lint": "./lint.js",
+    "./fmt": "./oxfmt.js",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "test:lint": "oxlint",
+    "test:format": "oxfmt --check",
+    "test:demo": "node demo/test.js",
+    "test": "pnpm run /^test:/"
+  },
+  "dependencies": {
+    "eslint-plugin-prefer-let": "^4.2.2"
+  },
+  "devDependencies": {
+    "actions-up": "^1.12.0",
+    "clean-publish": "^6.0.4",
+    "multiocular": "^0.8.2",
+    "oxfmt": "^0.42.0",
+    "oxlint": "^1.57.0",
+    "oxlint-tsgolint": "^0.18.1",
+    "svelte": "^5.55.0",
+    "typescript": "^6.0.2"
+  },
+  "peerDependencies": {
+    "oxfmt": "^0.42.0",
+    "oxlint": "^1.57.0",
+    "oxlint-tsgolint": "^0.18.1",
+    "typescript": "^6.0.2"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "clean-publish": {
+    "cleanDocs": true
+  }
+}
