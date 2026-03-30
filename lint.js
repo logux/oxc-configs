@@ -1,13 +1,11 @@
 export default {
-  plugins: ['import', 'node', 'unicorn'],
-  jsPlugins: ['eslint-plugin-prefer-let'],
-  categories: {
-    correctness: 'error',
-    suspicious: 'error'
-  },
   options: {
     typeAware: true,
     typeCheck: true
+  },
+  categories: {
+    correctness: 'error',
+    suspicious: 'error'
   },
   env: {
     builtin: true,
@@ -18,6 +16,8 @@ export default {
     document: 'readonly',
     window: 'readonly'
   },
+  plugins: ['import', 'node', 'unicorn'],
+  jsPlugins: ['eslint-plugin-prefer-let'],
   rules: {
     'import/first': 'error',
     'import/no-absolute-path': [
@@ -193,8 +193,8 @@ export default {
       }
     },
     {
-      plugins: ['import', 'node', 'unicorn', 'typescript'],
       files: ['**/*.ts', '**/*.tsx', '**/*.mts', '**/*.cts'],
+      plugins: ['import', 'node', 'unicorn', 'typescript'],
       rules: {
         'import/extensions': [
           'error',
