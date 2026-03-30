@@ -28,13 +28,7 @@ import loguxOxlintConfig from '@logux/oxc-configs/lint'
 import { defineConfig } from 'oxlint'
 
 export default defineConfig({
-  ...loguxOxlintConfig
-  rules: {
-    ...loguxOxlintConfig.rules
-  },
-  overrides: [
-    ...loguxOxlintConfig.overrides
-  }
+  extends: [loguxOxlintConfig]
 })
 ```
 
