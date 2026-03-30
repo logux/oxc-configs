@@ -298,7 +298,7 @@ export default {
     },
     {
       files: [
-        '**/*.{test.ts,test.tsx,stories.tsx}',
+        '**/*.{test.ts,test.js,test.tsx,stories.tsx}',
         '**/types.ts',
         '**/test/*'
       ],
