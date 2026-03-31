@@ -160,7 +160,6 @@ export default {
     'no-useless-computed-key': 'error',
     'no-useless-return': 'error',
     'no-var': 'warn',
-    'no-void': 'error',
     'prefer-exponentiation-operator': 'error',
     'prefer-promise-reject-errors': 'error',
     'prefer-rest-params': 'error',
