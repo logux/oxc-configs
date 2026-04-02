@@ -178,7 +178,9 @@ export default {
         requireStringLiterals: true
       }
     ],
-    'yoda': ['error', 'never']
+    'yoda': ['error', 'never'],
+
+    'unicorn/require-post-message-target-origin': 'off'
   },
   overrides: [
     {
