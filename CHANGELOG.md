@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 0.3.1
+
+- Removed plugin changes for different file types.
+
 ## 0.3.0
 
 - Removed `typescript/consistent-return`.
