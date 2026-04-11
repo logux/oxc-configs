@@ -180,7 +180,8 @@ export default {
     ],
     'yoda': ['error', 'never'],
 
-    'unicorn/require-post-message-target-origin': 'off'
+    'unicorn/require-post-message-target-origin': 'off',
+    'typescript/consistent-return': 'off'
   },
   overrides: [
     {
