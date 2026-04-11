@@ -16,7 +16,7 @@ export default {
     document: 'readonly',
     window: 'readonly'
   },
-  plugins: ['import', 'node', 'unicorn'],
+  plugins: ['import', 'node', 'unicorn', 'typescript'],
   jsPlugins: ['eslint-plugin-prefer-let'],
   rules: {
     'import/first': 'error',
@@ -196,7 +196,6 @@ export default {
     },
     {
       files: ['**/*.ts', '**/*.tsx', '**/*.mts', '**/*.cts'],
-      plugins: ['import', 'node', 'unicorn', 'typescript'],
       rules: {
         'import/extensions': [
           'error',
