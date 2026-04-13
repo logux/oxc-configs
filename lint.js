@@ -46,6 +46,11 @@ export default {
     'node/no-new-require': 'error',
     'node/no-path-concat': 'error',
 
+    'unicorn/require-post-message-target-origin': 'off',
+
+    'typescript/consistent-return': 'off',
+    'typescript/unbound-method': 'off',
+
     'accessor-pairs': [
       'error',
       {
@@ -178,10 +183,7 @@ export default {
         requireStringLiterals: true
       }
     ],
-    'yoda': ['error', 'never'],
-
-    'unicorn/require-post-message-target-origin': 'off',
-    'typescript/consistent-return': 'off'
+    'yoda': ['error', 'never']
   },
   overrides: [
     {
@@ -254,7 +256,6 @@ export default {
           }
         ],
         'typescript/return-await': ['error', 'error-handling-correctness-only'],
-        'typescript/unbound-method': 'off',
         'typescript/unified-signatures': 'error',
         'typescript/use-unknown-in-catch-callback-variable': 'error',
         'typescript/array-type': 'error',
