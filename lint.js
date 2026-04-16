@@ -193,7 +193,8 @@ export default {
 
         'node/global-require': 'off',
 
-        'no-unused-expressions': 'off'
+        'no-unused-expressions': 'off',
+        'no-new': 'off'
       }
     },
     {
