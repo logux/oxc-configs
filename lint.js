@@ -330,6 +330,14 @@ export default {
       }
     },
     {
+      files: ['**/*.js', '**/*.cjs', '**/*.mjs'],
+      rules: {
+        'typescript/no-base-to-string': 'off',
+        'typescript/await-thenable': 'off',
+        'prefer-promise-reject-errors': 'off'
+      }
+    }
+    {
       files: ['**/*.cts'],
       rules: {
         'typescript/no-require-imports': 'off',
