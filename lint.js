@@ -48,6 +48,7 @@ export default {
 
     'unicorn/require-post-message-target-origin': 'off',
 
+    'typescript/no-unnecessary-type-parameters': 'off',
     'typescript/consistent-return': 'off',
     'typescript/unbound-method': 'off',
 
