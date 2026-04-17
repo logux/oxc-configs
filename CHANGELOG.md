@@ -2,6 +2,11 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 0.3.4
+
+- Fixed false-positive TypeScript rules for JS.
+- Fixed errors from `new Class()` in tests.
+
 ## 0.3.3
 
 - Fixed `typescript/unbound-method` removing.
