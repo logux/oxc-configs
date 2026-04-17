@@ -336,7 +336,7 @@ export default {
         'typescript/await-thenable': 'off',
         'prefer-promise-reject-errors': 'off'
       }
-    }
+    },
     {
       files: ['**/*.cts'],
       rules: {
