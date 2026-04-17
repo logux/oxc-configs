@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 0.4.0
+
+- Removed `typescript/no-unnecessary-type-parameters` rule.
+
 ## 0.3.4
 
 - Fixed false-positive TypeScript rules for JS.

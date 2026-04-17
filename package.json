@@ -1,6 +1,6 @@
 {
   "name": "@logux/oxc-configs",
-  "version": "0.3.4",
+  "version": "0.4.0",
   "description": "Oxlint & oxfmt shareable config for Logux",
   "keywords": [
     "logux",
