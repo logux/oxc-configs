@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 0.4.1
+
+- Fixed TypeScript 7 peer dependency warning.
+
 ## 0.4.0
 
 - Removed `typescript/no-unnecessary-type-parameters` rule.
