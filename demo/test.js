@@ -8,7 +8,7 @@ const JS_EXPECTED =
 
 const TS_EXPECTED =
   'demo/b.ts:1:15: Unexpected `any`. Specify a different type. ' +
-  '[Error/typescript-eslint(no-explicit-any)]'
+  '[Error/typescript(no-explicit-any)]'
 
 function oxlint(config, files) {
   let paths = files
