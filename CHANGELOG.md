@@ -2,6 +2,11 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.0.0
+
+- Removed `no-underscore-dangle` rule.
+- Marked project as stable.
+
 ## 0.4.1
 
 - Fixed TypeScript 7 peer dependency warning.
