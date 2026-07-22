@@ -195,6 +195,7 @@ export default {
         'node/global-require': 'off',
 
         'no-unused-expressions': 'off',
+        'no-underscore-dangle': 'off',
         'no-new': 'off'
       }
     },
