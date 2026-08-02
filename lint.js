@@ -151,7 +151,8 @@ export default {
       'error',
       {
         args: 'after-used',
-        vars: 'all'
+        vars: 'all',
+        varsIgnorePattern: '^_'
       }
     ],
     'no-use-before-define': [
