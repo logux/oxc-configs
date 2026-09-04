@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.2.0
+
+- Removed `no-irregular-whitespace` rule.
+
 ## 1.1.0
 
 - Allow unused vars starting from `_` to use in type templates.
