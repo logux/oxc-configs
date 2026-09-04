@@ -99,6 +99,7 @@ export default {
       }
     ],
     'no-fallthrough': 'error',
+    'no-irregular-whitespace': 'off',
     'no-labels': [
       'error',
       {
